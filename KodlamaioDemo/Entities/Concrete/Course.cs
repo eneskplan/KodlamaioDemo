@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace KodlamaioDemo.Entities.Concrete
 {
-    internal class Course:IEntity
+    public class Course : IEntity
     {
         public int Id { get; set; }
+        public string Name { get; set; }
+        public double Price { get; set; }
     }
 }

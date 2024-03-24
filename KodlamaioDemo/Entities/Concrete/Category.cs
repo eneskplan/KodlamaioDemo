@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace KodlamaioDemo.Entities.Concrete
 {
-    internal class Category:IEntity
+    public class Category:IEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }
