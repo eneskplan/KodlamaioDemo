@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KodlamaioDemo.Entities.Abstract
 {
-    public interface IEntity
+    internal interface IEntity
     {
     }
 }
